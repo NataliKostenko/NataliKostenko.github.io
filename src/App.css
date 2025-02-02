@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(38, 25, 52);
+  color: rgb(222, 235, 245)
+}
+
+.container {
+  width: 800px;
+}
+
+.overlay {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.25;
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.errorBoundary {
+  margin-top: 5%;
+  float: inline-end;
+}
